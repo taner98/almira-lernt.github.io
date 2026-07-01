@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deutsch Lernvorlage – Almira</title>
+<style>
+:root{--bg:#fff8ef;--ink:#24313f;--muted:#687788;--red:#d94b46;--blue:#4978d6;--green:#39a875;--yellow:#ffc857;--purple:#8d5bd1;--card:#ffffff;--shadow:0 16px 40px rgba(36,49,63,.12);--radius:24px}*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top left,#ffe3d7,transparent 32%),radial-gradient(circle at 85% 10%,#dfeaff,transparent 28%),linear-gradient(180deg,#fff8ef,#f7fbff);color:var(--ink);line-height:1.55}.page{max-width:1120px;margin:auto;padding:28px 18px 60px}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#d94b46,#ff8b61);color:white;border-radius:32px;padding:42px 34px;box-shadow:var(--shadow)}.hero h1{font-size:clamp(34px,6vw,62px);line-height:1;margin:0 0 12px}.hero p{font-size:20px;max-width:760px;margin:0}.badge{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.22);padding:8px 14px;border-radius:999px;font-weight:800;margin-bottom:18px}.hero:after{content:"✦";position:absolute;right:36px;top:18px;font-size:96px;opacity:.25}.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:22px 0}.nav a{text-decoration:none;color:var(--ink);background:var(--card);border:2px solid rgba(36,49,63,.08);padding:16px;border-radius:18px;box-shadow:0 8px 22px rgba(36,49,63,.08);font-weight:900}.section{margin-top:28px}.section h2{font-size:32px;margin:0 0 14px;display:flex;gap:12px;align-items:center}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}.card{background:var(--card);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);border:1px solid rgba(36,49,63,.06)}.card h3{margin:0 0 10px;font-size:23px}.pill{display:inline-block;padding:5px 10px;border-radius:999px;font-weight:900;font-size:13px;background:#eef3ff;color:#315cad;margin:4px 4px 8px 0}.red{background:#fff0ef}.blue{background:#eef4ff}.green{background:#edfff7}.yellow{background:#fff8d8}.purple{background:#f4eeff}.steps{counter-reset:step}.step{position:relative;margin:14px 0 0;padding-left:58px}.step:before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0;width:42px;height:42px;border-radius:14px;background:var(--yellow);display:grid;place-items:center;font-weight:1000;font-size:22px}.formula{font-size:19px;background:#24313f;color:white;border-radius:18px;padding:18px;margin-top:14px}.flashcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.flip{min-height:170px;perspective:1000px}.flip-inner{height:100%;position:relative;transition:transform .65s;transform-style:preserve-3d}.flip:hover .flip-inner{transform:rotateY(180deg)}.front,.back{position:absolute;inset:0;backface-visibility:hidden;border-radius:22px;padding:20px;display:flex;flex-direction:column;justify-content:center;box-shadow:var(--shadow)}.front{background:white;border:2px dashed #d8e0ea}.back{background:#24313f;color:white;transform:rotateY(180deg)}.quiz{background:linear-gradient(135deg,#24313f,#37506c);color:white}.quiz details{background:rgba(255,255,255,.1);padding:14px 16px;border-radius:16px;margin-top:12px}.quiz summary{cursor:pointer;font-weight:900}.checklist label{display:block;background:white;margin:9px 0;padding:12px 14px;border-radius:14px;border:1px solid #e9edf2}.mini{color:var(--muted);font-size:14px}.example{border-left:6px solid var(--green);background:#f2fff9;padding:14px 16px;border-radius:12px;margin-top:12px}.speech{background:#f0f5ff;border-radius:20px;padding:18px;font-size:18px}.table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:18px;background:white;box-shadow:var(--shadow)}.table th,.table td{padding:14px;border-bottom:1px solid #edf0f4;text-align:left}.table th{background:#24313f;color:white}.footer{text-align:center;margin-top:34px;color:var(--muted)}@media print{.nav{display:none}.card,.hero{box-shadow:none}body{background:white}.page{max-width:none}.flip .flip-inner{transform:none}.back{position:relative;transform:none;margin-top:8px}.front{position:relative}}
+
+.timeline{display:grid;gap:14px}.mission{background:linear-gradient(135deg,#fff,#f1f7ff);border:2px solid #e5edf8;border-radius:22px;padding:18px}.tag{display:inline-block;background:#24313f;color:white;border-radius:999px;padding:4px 9px;font-size:12px;font-weight:900;margin-right:6px}.note{background:#fff3cd;border-left:6px solid #ffc857;padding:14px 16px;border-radius:12px}.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}.quote{font-family:Georgia,serif;font-size:19px;background:#fff;border-radius:18px;padding:16px;border:1px solid #e9edf2}.game{border:3px dashed #d94b46;background:#fff7f6;border-radius:24px;padding:20px}.points{font-weight:900;color:#d94b46}.wordbox span{display:inline-block;margin:5px;padding:8px 11px;border-radius:12px;background:#eef4ff;font-weight:800}.answer{background:#edfff7;border-radius:14px;padding:12px;margin-top:10px;display:none}.solution{margin-top:12px;background:#f7fff9;border:1px solid #d9f4e6;border-radius:16px;padding:12px 14px}.solution summary{cursor:pointer;font-weight:900;list-style:none}.solution summary::-webkit-details-marker{display:none}.solution[open] .answer{display:block}.showAnswer{display:block!important} .rubric td:first-child{font-weight:900}@media(max-width:760px){.two{grid-template-columns:1fr}}
+.progress{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border:1px solid #e9edf2;border-radius:18px;padding:12px;margin:16px 0;box-shadow:0 8px 20px rgba(36,49,63,.08)}.bar{height:14px;border-radius:999px;background:#edf0f4;overflow:hidden}.bar span{display:block;height:100%;width:0%;background:linear-gradient(90deg,#39a875,#ffc857,#d94b46);transition:.3s}.btn{display:inline-block;border:0;border-radius:14px;padding:10px 14px;font-weight:900;background:#24313f;color:#fff;cursor:pointer;margin:6px 6px 0 0}.btn.light{background:#eef4ff;color:#24313f}.mc button{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e9edf2;border-radius:14px;padding:12px;margin:8px 0;cursor:pointer}.mc button.ok{border-color:#39a875;background:#edfff7}.mc button.no{border-color:#d94b46;background:#fff0ef}.hiddenAnswer{display:none}.miniText{background:#fff;border-radius:18px;padding:18px;border:1px solid #e9edf2;line-height:1.7}.teacher{background:#eef4ff;border-left:6px solid #4978d6;padding:14px 16px;border-radius:12px}.memory{background:#f4eeff;border-left:6px solid #8d5bd1;padding:14px 16px;border-radius:12px;margin-top:12px}.danger{background:#fff0ef;border-left:6px solid #d94b46;padding:14px 16px;border-radius:12px;margin-top:12px}
+
+@media(max-width:900px){.page{padding:18px 12px 44px}.hero{padding:32px 22px;border-radius:24px}.nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.nav a{padding:13px;font-size:15px}.progress{position:relative;top:auto}.card{padding:18px;border-radius:20px}.section h2{font-size:26px}.table{display:block;overflow-x:auto}.btn,.mc button,summary{min-height:44px;touch-action:manipulation}.flip{min-height:190px}.flip-inner{transition:none}.flip:hover .flip-inner{transform:none}.flip:active .flip-inner,.flip:focus-within .flip-inner{transform:rotateY(180deg)}}
+@media(max-width:520px){.nav{grid-template-columns:1fr}.hero h1{font-size:34px}.hero p{font-size:17px}.grid,.flashcards{grid-template-columns:1fr}.quote,.speech{font-size:16px}.page{padding-left:10px;padding-right:10px}.progress button{width:100%;margin-left:0;margin-right:0}}
+
+.final-card{background:linear-gradient(135deg,#fff,#f4eeff 48%,#fff8d8);border:2px solid rgba(141,91,209,.18);position:relative;overflow:hidden}.final-card:before{content:"🍀";position:absolute;right:24px;top:18px;font-size:64px;opacity:.18}.question-list{display:grid;gap:12px}.question-item{background:#fff;border:1px solid #e9edf2;border-radius:18px;padding:14px}.calm-list li{margin:8px 0}.motivation{font-size:22px;font-weight:1000;background:#24313f;color:#fff;border-radius:22px;padding:20px;text-align:center}.boost-btn{width:100%;display:block;margin:12px 0 0 0;padding:20px;border-radius:22px;font-size:18px;position:relative;overflow:hidden;background:linear-gradient(90deg,#39a875 var(--boost,0%),#24313f var(--boost,0%));transition:background .25s ease,transform .12s ease}.boost-btn:active{transform:scale(.99)}.confetti-piece{position:fixed;top:-12px;width:10px;height:16px;border-radius:3px;z-index:9999;animation:fall 1.8s linear forwards}@keyframes fall{to{transform:translateY(105vh) rotate(720deg);opacity:0}}@media(max-width:520px){.motivation{font-size:18px}.boost-btn{font-size:16px;padding:18px}.final-card:before{font-size:44px;right:12px}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="hero">
+  <div class="badge">📚 Mündliche Deutschprüfung · Klasse 2BFH2</div>
+  <h1>Almiras Lernreise durch Kurzprosa</h1>
+  <p>Spielerisch vorbereitet: Textarten erkennen, Inhalte sicher erklären, Figuren beschreiben und Grammatikpunkte entspannt wiederholen.</p>
+</header>
+
+<nav class="nav">
+  <a href="#ablauf">🎯 Prüfungsablauf</a><a href="#textarten">🎭 Textarten</a><a href="#buch">📖 Buch-Beispiele</a><a href="#schema">🧭 Antwortschema</a><a href="#grammatik">🧩 Grammatik</a><a href="#uebung">🎲 Übungen</a><a href="#pruefung">🗣️ Prüfungstraining</a><a href="#spickzettel">✨ Spickzettel</a><a href="#abschluss">🍀 Abschluss</a>
+</nav>
+<div class="progress"><b>🏆 Lernfortschritt:</b> <span id="score">0</span> Punkte gesammelt <div class="bar"><span id="bar"></span></div><button class="btn light" onclick="addPoint(5)">+5 Punkte fürs Kapitel gelesen</button><button class="btn light" onclick="resetPoints()">Reset</button></div>
+
+<section class="section" id="ablauf">
+<h2>🎯 Was wahrscheinlich drankommt</h2>
+<div class="grid">
+ <div class="card red"><h3>1. Kurzprosatext</h3><p>Du bekommst einen kurzen erzählenden Text. Das kann z. B. eine Fabel, Kurzgeschichte, Parabel oder Anekdote sein.</p></div>
+ <div class="card blue"><h3>2. Textverständnis</h3><p>Du erklärst, <b>was passiert</b>, wer beteiligt ist, welches Problem entsteht und was der Text aussagen will.</p></div>
+ <div class="card green"><h3>3. Grammatik</h3><p>Wenn Zeit bleibt: Wortarten, Zeitformen und die Unterscheidung von <b>das/dass</b>.</p></div>
+</div>
+</section>
+
+<section class="section" id="textarten">
+<h2>🎭 Textarten als Sammelkarten</h2>
+<p class="mini">Tipp: Mit der Maus über die Karten fahren oder auf dem Handy antippen.</p>
+<div class="flashcards">
+ <div class="flip"><div class="flip-inner"><div class="front yellow"><h3>Fabel 🦊</h3><p>Was ist typisch?</p></div><div class="back"><b>Merkmale:</b><br>Tiere handeln wie Menschen, kurze Handlung, klare Moral/Lehre. Typisch: Fuchs = schlau, Löwe = mächtig.</div></div></div>
+ <div class="flip"><div class="flip-inner"><div class="front blue"><h3>Kurzgeschichte ✍️</h3><p>Was ist typisch?</p></div><div class="back"><b>Merkmale:</b><br>Direkter Einstieg, Alltagssituation, wenige Figuren, Konflikt, Wendepunkt, oft offenes Ende.</div></div></div>
+ <div class="flip"><div class="flip-inner"><div class="front green"><h3>Parabel 🧠</h3><p>Was ist typisch?</p></div><div class="back"><b>Merkmale:</b><br>Kurze Geschichte mit übertragener Bedeutung. Man muss die Aussage auf das Leben übertragen.</div></div></div>
+ <div class="flip"><div class="flip-inner"><div class="front purple"><h3>Anekdote 😄</h3><p>Was ist typisch?</p></div><div class="back"><b>Merkmale:</b><br>Kurz, oft witzig oder überraschend, zeigt eine Eigenschaft einer Person, endet häufig mit Pointe.</div></div></div>
+ <div class="flip"><div class="flip-inner"><div class="front red"><h3>Märchen 🏰</h3><p>Was ist typisch?</p></div><div class="back"><b>Merkmale:</b><br>Magie, Gut gegen Böse, unbestimmte Zeit/Ort, klare Rollen, oft gutes Ende.</div></div></div>
+</div>
+</section>
+
+
+
+<section class="section" id="buch">
+<h2>📖 Beispiele im Stil des Deutschbuchs</h2>
+<div class="note"><b>Lernziel:</b> Die folgenden Texte sind wie typische Aufgaben aus dem Unterricht aufgebaut: erst lesen, dann Textart erkennen, Inhalt erklären, Figuren beschreiben und eine Aussage formulieren.</div>
+<div class="grid" style="margin-top:18px">
+ <div class="card"><h3>Beispiel 1: Fabel</h3><div class="quote">Ein Fuchs sah einen Raben mit einem Stück Käse im Schnabel. „Wie schön du bist“, sagte der Fuchs. „Wenn deine Stimme genauso schön ist, bist du der König aller Vögel.“ Der Rabe öffnete stolz den Schnabel, um zu singen. Der Käse fiel herunter, und der Fuchs fraß ihn.</div><details class="solution"><summary>✅ Lösung anzeigen</summary><div class="answer"><b>Lösung:</b> Das ist eine Fabel, weil Tiere sprechen und menschliche Eigenschaften zeigen. Der Rabe ist eitel, der Fuchs listig. Die Moral: Man soll sich nicht von Schmeichelei täuschen lassen.</div></details></div>
+ <div class="card"><h3>Beispiel 2: Kurzgeschichte</h3><div class="quote">Mira stand vor der Klassentür. In ihrer Tasche lag das Heft, das sie gestern gefunden hatte. Auf dem Umschlag stand Leons Name. Die Lehrerin fragte, ob jemand die Hausaufgaben abschreiben konnte. Mira spürte, wie ihr Gesicht warm wurde. Dann legte sie das Heft auf Leons Tisch.</div><details class="solution"><summary>✅ Lösung anzeigen</summary><div class="answer"><b>Lösung:</b> Das wirkt wie eine Kurzgeschichte: Alltagssituation, wenige Figuren, innerer Konflikt. Mira muss entscheiden, ob sie ehrlich ist. Die Aussage könnte sein: Ehrlichkeit braucht Mut.</div></details></div>
+ <div class="card"><h3>Beispiel 3: Parabel</h3><div class="quote">Ein Mann trug jeden Tag zwei Eimer Wasser. Einer war neu, der andere hatte einen Riss. Der kaputte Eimer schämte sich, weil er nur halb voll ankam. Der Mann sagte: „Sieh den Weg an. Auf deiner Seite wachsen Blumen, weil du sie jeden Tag gegossen hast.“</div><details class="solution"><summary>✅ Lösung anzeigen</summary><div class="answer"><b>Lösung:</b> Parabel: Die Handlung hat eine übertragene Bedeutung. Der kaputte Eimer steht für Menschen mit Schwächen. Aussage: Auch Fehler oder Schwächen können wertvoll sein.</div></details></div>
+ <div class="card"><h3>Beispiel 4: Anekdote</h3><div class="quote">Ein Schüler sagte: „Ich habe mein Heft vergessen, weil mein kleiner Bruder es als Malbuch benutzt hat.“ Die Lehrerin sah ihn streng an. Da zog er das Heft heraus. Auf der letzten Seite war tatsächlich ein bunter Dinosaurier.</div><details class="solution"><summary>✅ Lösung anzeigen</summary><div class="answer"><b>Lösung:</b> Anekdote: kurzer Text mit überraschender Pointe. Die Situation wirkt erst wie eine Ausrede, am Ende zeigt sich, dass sie stimmt.</div></details></div>
+</div>
+</section>
+
+<section class="section" id="analyse">
+<h2>🔍 Textanalyse wie ein Detektiv</h2>
+<div class="two">
+ <div class="card"><h3>Detektivfragen zum Text</h3><p><span class="tag">Wer?</span> Welche Figuren kommen vor?</p><p><span class="tag">Was?</span> Was passiert genau?</p><p><span class="tag">Warum?</span> Warum handeln die Figuren so?</p><p><span class="tag">Problem?</span> Was ist der Konflikt?</p><p><span class="tag">Aussage?</span> Was soll man daraus lernen?</p></div>
+ <div class="card green"><h3>So klingt eine gute Antwort</h3><p>„In dem Text geht es um Mira, die ein gefundenes Heft zurückgeben muss. Sie steht vor einem inneren Konflikt, weil sie Angst hat, aber trotzdem ehrlich sein möchte. Am Ende entscheidet sie sich richtig. Die Aussage könnte sein, dass Ehrlichkeit Mut braucht.“</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>🧠 Inhalte, die sie vorbereiten sollte</h2>
+<div class="grid">
+ <div class="mission"><h3>Figuren-Eigenschaften</h3><div class="wordbox"><span>mutig</span><span>ängstlich</span><span>eitel</span><span>ehrlich</span><span>listig</span><span>naiv</span><span>hilfsbereit</span><span>egoistisch</span><span>unsicher</span><span>überfordert</span></div><p><b>Prüfungssatz:</b> „Die Figur wirkt …, weil sie …“</p></div>
+ <div class="mission"><h3>Typische Aussagen</h3><ul><li>Man sollte ehrlich bleiben, auch wenn es schwer ist.</li><li>Man darf andere nicht nur nach dem Äußeren beurteilen.</li><li>Hochmut kann zu Fehlern führen.</li><li>Jeder Mensch hat Stärken und Schwächen.</li><li>Man sollte Verantwortung übernehmen.</li></ul></div>
+ <div class="mission"><h3>Konflikte erkennen</h3><ul><li><b>innerer Konflikt:</b> Eine Figur kämpft mit sich selbst.</li><li><b>äußerer Konflikt:</b> Zwei Figuren streiten oder haben verschiedene Ziele.</li><li><b>sozialer Konflikt:</b> Eine Figur hat Probleme mit Regeln, Gruppe oder Gesellschaft.</li></ul></div>
+</div>
+</section>
+
+<section class="section" id="schema">
+<h2>🧭 Das 5-Schritte-Antwortschema</h2>
+<div class="card steps">
+ <div class="step"><h3>Textart nennen</h3><p>„Der Text ist wahrscheinlich eine …, weil …“</p></div>
+ <div class="step"><h3>Inhalt zusammenfassen</h3><p>Präsens benutzen: „In dem Text geht es um … Am Anfang … Danach … Am Ende …“</p></div>
+ <div class="step"><h3>Figuren beschreiben</h3><p>Wer ist die Hauptfigur? Wie wirkt sie? Verändert sie sich?</p></div>
+ <div class="step"><h3>Konflikt erkennen</h3><p>„Der zentrale Konflikt besteht darin, dass …“</p></div>
+ <div class="step"><h3>Aussage erklären</h3><p>„Der Text möchte zeigen, dass …“</p></div>
+ <div class="formula">Merksatz: <b>Textart → Inhalt → Figuren → Problem → Aussage</b></div>
+</div>
+</section>
+
+<section class="section">
+<h2>💬 Formulierungen, die immer helfen</h2>
+<div class="grid">
+ <div class="speech">„In dem Text geht es um …“</div>
+ <div class="speech">„Die Hauptfigur wirkt …, weil …“</div>
+ <div class="speech">„Ein Wendepunkt ist die Stelle, an der …“</div>
+ <div class="speech">„Die Aussage könnte sein, dass …“</div>
+ <div class="speech">„Ich vermute, dass es eine Fabel ist, weil …“</div>
+ <div class="speech">„Am Ende wird deutlich, dass …“</div>
+</div>
+</section>
+
+<section class="section" id="grammatik">
+<h2>🧩 Grammatik kurz & klar</h2>
+<div class="grid">
+ <div class="card"><h3>Wortarten</h3><span class="pill">Nomen</span><span class="pill">Verben</span><span class="pill">Adjektive</span><span class="pill">Artikel</span><span class="pill">Pronomen</span><span class="pill">Präpositionen</span><p><b>Nomen:</b> der Tisch · <b>Verb:</b> lernen · <b>Adjektiv:</b> schön · <b>Pronomen:</b> ich/sie/mein</p></div>
+ <div class="card"><h3>Zeitformen</h3><table class="table"><tr><th>Zeit</th><th>Beispiel</th></tr><tr><td>Präsens</td><td>Ich lerne.</td></tr><tr><td>Präteritum</td><td>Ich lernte.</td></tr><tr><td>Perfekt</td><td>Ich habe gelernt.</td></tr><tr><td>Plusquamperfekt</td><td>Ich hatte gelernt.</td></tr><tr><td>Futur I</td><td>Ich werde lernen.</td></tr></table></div>
+ <div class="card yellow"><h3>das oder dass?</h3><p><b>das</b> kannst du durch <i>dieses, jenes, welches</i> ersetzen.</p><p><b>dass</b> leitet einen Nebensatz ein.</p><div class="example">„Ich hoffe, <b>dass</b> ich bestehe.“<br>„Das Buch, <b>das</b> dort liegt, gehört mir.“</div></div>
+</div>
+</section>
+
+
+
+<section class="section">
+<h2>🧩 Grammatik-Training mit Beispielen</h2>
+<div class="grid">
+ <div class="card"><h3>Wortarten bestimmen</h3><p><b>Satz:</b> „Der schlaue Fuchs täuscht den eitlen Raben.“</p><table class="table"><tr><th>Wort</th><th>Wortart</th><th>Warum?</th></tr><tr><td>Der</td><td>Artikel</td><td>Begleiter von Fuchs</td></tr><tr><td>schlaue</td><td>Adjektiv</td><td>beschreibt den Fuchs</td></tr><tr><td>Fuchs</td><td>Nomen</td><td>Lebewesen, großgeschrieben</td></tr><tr><td>täuscht</td><td>Verb</td><td>Was tut er?</td></tr><tr><td>den</td><td>Artikel</td><td>Begleiter von Raben</td></tr><tr><td>eitlen</td><td>Adjektiv</td><td>beschreibt den Raben</td></tr><tr><td>Raben</td><td>Nomen</td><td>Lebewesen, großgeschrieben</td></tr></table></div>
+ <div class="card"><h3>Zeitformen umwandeln</h3><p><b>Präsens:</b> Mira gibt das Heft zurück.</p><p><b>Präteritum:</b> Mira gab das Heft zurück.</p><p><b>Perfekt:</b> Mira hat das Heft zurückgegeben.</p><p><b>Plusquamperfekt:</b> Mira hatte das Heft zurückgegeben.</p><p><b>Futur I:</b> Mira wird das Heft zurückgeben.</p></div>
+ <div class="card yellow"><h3>das/dass Mini-Test</h3><p>1. Ich glaube, ___ der Fuchs lügt.</p><p>2. Das Heft, ___ auf dem Tisch liegt, gehört Leon.</p><p>3. Mira merkt, ___ Ehrlichkeit wichtig ist.</p><details><summary>Lösung anzeigen</summary>1. dass · 2. das · 3. dass</details></div>
+</div>
+</section>
+
+<section class="section" id="uebung">
+<h2>🎲 Kleine Prüfungsübungen</h2>
+<div class="grid">
+ <div class="card quiz"><h3>Quiz 1: Welche Textart?</h3><p>Tiere sprechen miteinander und am Ende gibt es eine Lehre.</p><details><summary>Antwort anzeigen</summary>Fabel.</details></div>
+ <div class="card quiz"><h3>Quiz 2: Was ist ein Konflikt?</h3><p>Eine Figur will etwas, aber etwas oder jemand steht ihr im Weg.</p><details><summary>Beispiel anzeigen</summary>Ein Mädchen möchte ehrlich sein, hat aber Angst vor Ärger.</details></div>
+ <div class="card quiz"><h3>Quiz 3: das oder dass?</h3><p>„Ich glaube, ___ der Text eine Lehre hat.“</p><details><summary>Antwort anzeigen</summary>dass.</details></div>
+</div>
+</section>
+
+
+
+<section class="section" id="pruefung">
+<h2>🗣️ Prüfungstraining: komplette Musterantworten</h2>
+<div class="grid">
+ <div class="card"><h3>Musterantwort Fabel</h3><p>„Der Text ist eine Fabel, weil Tiere wie Menschen sprechen und handeln. Der Fuchs ist schlau und nutzt die Eitelkeit des Raben aus. Der Rabe möchte bewundert werden und macht deshalb einen Fehler. Die Moral lautet: Man sollte nicht jedem Kompliment glauben und nicht zu eitel sein.“</p></div>
+ <div class="card"><h3>Musterantwort Kurzgeschichte</h3><p>„Der Text ist vermutlich eine Kurzgeschichte, weil er kurz ist, direkt in eine Alltagssituation einsteigt und einen Konflikt zeigt. Mira steht vor der Entscheidung, ob sie ehrlich ist. Am Ende gibt sie das Heft zurück. Dadurch zeigt der Text, dass Ehrlichkeit manchmal schwer ist, aber richtig.“</p></div>
+ <div class="card"><h3>Musterantwort Parabel</h3><p>„Der Text ist eine Parabel, weil die Geschichte eine tiefere Bedeutung hat. Der beschädigte Eimer steht für Menschen, die sich wegen ihrer Schwächen schlecht fühlen. Die Blumen zeigen aber, dass auch Schwächen etwas Gutes bewirken können.“</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>🏆 Lernspiel: Punkte sammeln</h2>
+<div class="game"><p><span class="points">+1 Punkt</span> für jede richtige Textart.</p><p><span class="points">+2 Punkte</span> für eine gute Inhaltsangabe in 4–5 Sätzen.</p><p><span class="points">+2 Punkte</span> für eine Figureneigenschaft mit Begründung.</p><p><span class="points">+3 Punkte</span> für eine passende Aussage/Moral.</p><p><span class="points">Bonus:</span> Einen Satz mit das/dass richtig erklären.</p><p><b>Ziel:</b> 10 Punkte = prüfungsbereit.</p></div>
+</section>
+
+<section class="section">
+<h2>📊 Bewertungsraster: So wirkt sie sicher</h2>
+<table class="table rubric"><tr><th>Bereich</th><th>Was sie sagen sollte</th></tr><tr><td>Textart</td><td>„Es ist eine …, weil …“ mit mindestens 2 Merkmalen.</td></tr><tr><td>Inhalt</td><td>Keine Nacherzählung jedes Details, sondern kurz und geordnet im Präsens.</td></tr><tr><td>Figuren</td><td>Eigenschaft + Begründung: „Sie wirkt mutig, weil …“</td></tr><tr><td>Aussage</td><td>Eine allgemeine Lehre formulieren, nicht nur den Inhalt wiederholen.</td></tr><tr><td>Sprache</td><td>Ruhig sprechen, ganze Sätze benutzen, bei Unsicherheit sagen: „Ich vermute …“</td></tr></table>
+</section>
+
+<section class="section">
+<h2>🗓️ 5-Tage-Lernplan</h2>
+<table class="table"><tr><th>Tag</th><th>Aufgabe</th><th>Ziel</th></tr><tr><td>1</td><td>Textarten lernen: Fabel, Kurzgeschichte, Parabel, Anekdote, Märchen</td><td>Je 3 Merkmale nennen können</td></tr><tr><td>2</td><td>Fabel + Moral üben</td><td>Tiereigenschaften und Lehre erklären</td></tr><tr><td>3</td><td>Kurzgeschichte üben</td><td>Alltagssituation, Konflikt, offenes Ende erkennen</td></tr><tr><td>4</td><td>Figuren beschreiben</td><td>Eigenschaft + Begründung + Textbezug formulieren</td></tr><tr><td>5</td><td>Aussage/Moral üben</td><td>„Der Text zeigt, dass …“ sicher sagen</td></tr><tr><td>6</td><td>Grammatik wiederholen</td><td>Wortarten, Zeiten, das/dass</td></tr><tr><td>7</td><td>Prüfung simulieren</td><td>5 Minuten frei sprechen mit Antwortschema</td></tr></table>
+</section>
+
+<section class="section" id="spickzettel">
+<h2>✨ Spickzettel vor der Prüfung</h2>
+<div class="card checklist">
+ <label><input type="checkbox"> Ich kann mindestens 4 Textarten unterscheiden.</label>
+ <label><input type="checkbox"> Ich kann einen Text im Präsens zusammenfassen.</label>
+ <label><input type="checkbox"> Ich kann Hauptfigur, Problem und Aussage nennen.</label>
+ <label><input type="checkbox"> Ich kenne Wortarten und Zeitformen.</label>
+ <label><input type="checkbox"> Ich weiß: <b>das</b> = dieses/jenes/welches, <b>dass</b> = Nebensatz.</label>
+ <div class="formula">Prüfungssatz: „Ich denke, der Text ist eine … Es geht um … Die Hauptfigur … Das Problem … Die Aussage könnte sein, dass …“</div>
+</div>
+</section>
+
+
+
+<section class="section" id="mehr-training">
+<h2>🚀 Extra-Training: So wird aus einer Antwort eine gute Antwort</h2>
+<div class="grid">
+  <div class="card">
+    <h3>❌ Zu kurz</h3>
+    <p>„Es geht um einen Fuchs. Er ist schlau.“</p>
+    <div class="danger"><b>Problem:</b> Es fehlen Textart, Handlung, Begründung und Aussage.</div>
+  </div>
+  <div class="card">
+    <h3>✅ Besser</h3>
+    <p>„Der Text ist eine Fabel, weil Tiere wie Menschen handeln. Im Mittelpunkt steht ein Fuchs, der versucht, durch List einen Vorteil zu bekommen. Dadurch zeigt der Text, dass man nicht jedem schönen Wort vertrauen sollte.“</p>
+    <div class="memory"><b>Merksatz:</b> Immer mit <b>weil</b> begründen. Eine Antwort ohne Begründung wirkt unsicher.</div>
+  </div>
+</div>
+
+<div class="card game">
+  <h3>🎮 Level-System für die Prüfung</h3>
+  <table class="table rubric">
+    <tr><th>Level</th><th>Was Almira können sollte</th><th>Beispiel</th></tr>
+    <tr><td>Level 1</td><td>Textart nennen</td><td>„Das ist wahrscheinlich eine Kurzgeschichte.“</td></tr>
+    <tr><td>Level 2</td><td>Merkmale nennen</td><td>„Es gibt wenige Figuren und einen Alltagskonflikt.“</td></tr>
+    <tr><td>Level 3</td><td>Inhalt geordnet zusammenfassen</td><td>„Am Anfang…, danach…, am Ende…“</td></tr>
+    <tr><td>Level 4</td><td>Figuren erklären</td><td>„Die Figur wirkt unsicher, weil…“</td></tr>
+    <tr><td>Level 5</td><td>Aussage deuten</td><td>„Der Text zeigt, dass…“</td></tr>
+  </table>
+</div>
+</section>
+
+<section class="section" id="lesetraining">
+<h2>📚 Mini-Lesetexte mit Prüfungsfragen</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Text 1: Der volle Bus</h3>
+    <div class="miniText">Mara stieg in den Bus und sah sofort den letzten freien Platz. Sie wollte sich setzen, doch hinter ihr kam ein älterer Mann mit einer Einkaufstasche. Mara tat so, als hätte sie ihn nicht gesehen. Erst als der Bus ruckartig bremste und der Mann sich mühsam festhalten musste, stand sie langsam auf. „Sie können hier sitzen“, sagte sie leise. Der Mann nickte. Mara schaute aus dem Fenster und wurde rot.</div>
+    <details><summary>Fragen anzeigen</summary>
+      <ol><li>Welche Textart passt am besten?</li><li>Was ist der zentrale Konflikt?</li><li>Wie verändert sich Mara?</li><li>Welche Aussage könnte der Text haben?</li></ol>
+    </details>
+    <details><summary>Musterlösung anzeigen</summary>
+      <details class="solution"><summary>✅ Musterlösung anzeigen</summary><div class="answer">Es ist wahrscheinlich eine Kurzgeschichte, weil sie kurz ist, direkt in eine Alltagssituation einsteigt und einen inneren Konflikt zeigt. Mara möchte bequem sitzen bleiben, merkt aber, dass der ältere Mann Hilfe braucht. Am Ende schämt sie sich, deshalb wird deutlich: Man sollte aufmerksam und hilfsbereit sein.</div></details>
+    </details>
+  </div>
+
+  <div class="card">
+    <h3>Text 2: Der Rabe und der Spiegel</h3>
+    <div class="miniText">Ein Rabe fand einen kleinen Spiegel und betrachtete sich lange darin. „Kein Vogel ist schöner als ich“, krächzte er. Eine Taube bat ihn, beim Nestbau zu helfen. Der Rabe lachte nur und putzte weiter seine Federn. Am Abend kam Wind auf. Das Nest der Taube hielt, doch der Ast des Raben brach. Da saß er im Regen und sah im Spiegel nur noch einen nassen Vogel.</div>
+    <details><summary>Fragen anzeigen</summary><ol><li>Warum ist das eine Fabel?</li><li>Welche Eigenschaft hat der Rabe?</li><li>Was ist die Moral?</li></ol></details>
+    <details><summary>Musterlösung anzeigen</summary><div class="answer">Der Text ist eine Fabel, weil Tiere menschlich handeln und sprechen. Der Rabe ist eitel und egoistisch. Die Moral lautet: Wer nur auf sich selbst schaut und anderen nicht hilft, kann am Ende selbst schlecht dastehen.</div></details>
+  </div>
+
+  <div class="card">
+    <h3>Text 3: Der Schlüssel</h3>
+    <div class="miniText">Ein Schüler suchte jeden Morgen seinen Schlüssel. Jeden Morgen rief er: „Jemand hat ihn weggenommen!“ Eines Tages blieb seine Mutter ruhig und sagte: „Dann suchen wir heute nicht den Schlüssel, sondern deine Ordnung.“ Der Schüler verstand zuerst nichts. Am Abend legte er den Schlüssel in eine kleine Schale neben der Tür. Am nächsten Morgen war er pünktlich.</div>
+    <details><summary>Fragen anzeigen</summary><ol><li>Welche Lehre steckt darin?</li><li>Ist es eher Parabel oder Kurzgeschichte?</li><li>Was bedeutet „Ordnung suchen“ übertragen?</li></ol></details>
+    <details><summary>Musterlösung anzeigen</summary><div class="answer">Der Text kann als Parabel verstanden werden, weil der Schlüssel für ein größeres Problem steht: fehlende Ordnung und Verantwortung. Die Aussage ist, dass man nicht immer anderen die Schuld geben sollte, sondern eigene Gewohnheiten ändern kann.</div></details>
+  </div>
+</div>
+</section>
+
+<section class="section" id="quizmodus">
+<h2>🎲 Quizmodus</h2>
+<div class="card quiz mc">
+  <h3>Frage 1: Welche Textart hat meistens Tiere mit menschlichen Eigenschaften?</h3>
+  <button onclick="right(this)">Fabel</button>
+  <button onclick="wrong(this)">Kurzgeschichte</button>
+  <button onclick="wrong(this)">Bericht</button>
+
+  <h3>Frage 2: Welche Formulierung passt zur Inhaltsangabe?</h3>
+  <button onclick="wrong(this)">„Ich finde den Text mega traurig.“</button>
+  <button onclick="right(this)">„In dem Text geht es um…“</button>
+  <button onclick="wrong(this)">„Der Autor ist safe komisch.“</button>
+
+  <h3>Frage 3: Wann schreibt man „dass“?</h3>
+  <button onclick="right(this)">Wenn es einen Nebensatz einleitet und nicht durch dieses/jenes/welches ersetzt werden kann.</button>
+  <button onclick="wrong(this)">Immer nach einem Komma.</button>
+  <button onclick="wrong(this)">Immer vor einem Nomen.</button>
+</div>
+</section>
+
+<section class="section" id="muendlich">
+<h2>🗣️ Mündliche Musterprüfung</h2>
+<div class="card">
+  <h3>Prüferfrage 1: „Fassen Sie den Text kurz zusammen.“</h3>
+  <div class="speech">„In dem Text geht es um <b>...</b>. Die Hauptfigur ist <b>...</b>. Am Anfang <b>...</b>. Danach <b>...</b>. Am Ende wird deutlich, dass <b>...</b>.“</div>
+  <button class="btn" onclick="toggle('a1')">Musterantwort öffnen</button>
+  <div id="a1" class="hiddenAnswer answer">„In dem Text geht es um ein Mädchen, das in einem Bus vor einer Entscheidung steht. Am Anfang möchte sie den freien Platz für sich behalten. Danach merkt sie, dass ein älterer Mann den Platz nötiger hätte. Am Ende steht sie auf und schämt sich, wodurch ihre Einsicht deutlich wird.“</div>
+</div>
+<div class="card">
+  <h3>Prüferfrage 2: „Welche Textart ist das und woran erkennt man das?“</h3>
+  <div class="speech">„Ich denke, es handelt sich um eine <b>...</b>, weil <b>...</b>. Ein weiteres Merkmal ist <b>...</b>.“</div>
+  <button class="btn" onclick="toggle('a2')">Musterantwort öffnen</button>
+  <div id="a2" class="hiddenAnswer answer">„Ich denke, es handelt sich um eine Kurzgeschichte, weil sie direkt in eine Alltagssituation einsteigt, nur wenige Figuren vorkommen und ein innerer Konflikt dargestellt wird.“</div>
+</div>
+<div class="card">
+  <h3>Prüferfrage 3: „Was will der Text aussagen?“</h3>
+  <div class="speech">„Der Text möchte zeigen, dass <b>...</b>. Man erkennt das besonders daran, dass <b>...</b>.“</div>
+  <button class="btn" onclick="toggle('a3')">Musterantwort öffnen</button>
+  <div id="a3" class="hiddenAnswer answer">„Der Text möchte zeigen, dass Hilfsbereitschaft und Aufmerksamkeit wichtig sind. Man erkennt das daran, dass Mara am Ende rot wird und sich für ihr Verhalten schämt.“</div>
+</div>
+</section>
+
+<section class="section" id="eselsbruecken">
+<h2>🧠 Eselsbrücken</h2>
+<div class="grid">
+  <div class="card yellow"><h3>das/dass</h3><p><b>Dieses, jenes, welches?</b> Wenn eines davon passt, schreibt man <b>das</b>. Wenn nicht, meistens <b>dass</b>.</p><div class="example">Ich weiß, <b>dass</b> ich lerne.<br>Das Buch, <b>das</b> dort liegt, gehört mir.</div></div>
+  <div class="card green"><h3>Inhaltsangabe</h3><p><b>Keine Meinung, keine Spannung, kein „ich“.</b> Sachlich, kurz und im Präsens.</p><div class="example">Nicht: „Dann passiert was Krasses.“<br>Sondern: „Danach erkennt die Figur ihr Fehlverhalten.“</div></div>
+  <div class="card blue"><h3>Figurenbeschreibung</h3><p>Eigenschaft + Beweis = gute Antwort.</p><div class="example">„Mara wirkt unsicher, <b>weil</b> sie am Ende rot wird und nur leise spricht.“</div></div>
+</div>
+</section>
+
+<section class="section" id="24h-plan">
+<h2>⏰ Lernplan für die letzten 24 Stunden</h2>
+<div class="timeline">
+  <div class="mission"><span class="tag">30 Min</span><b>Textarten lernen:</b> Zu jeder Textart 3 Merkmale laut sagen.</div>
+  <div class="mission"><span class="tag">40 Min</span><b>2 Mini-Texte bearbeiten:</b> Textart, Inhalt, Figur, Aussage.</div>
+  <div class="mission"><span class="tag">25 Min</span><b>Grammatik:</b> Wortarten + Zeiten + das/dass.</div>
+  <div class="mission"><span class="tag">20 Min</span><b>Mündlich üben:</b> Antworten laut sprechen, nicht nur lesen.</div>
+  <div class="mission"><span class="tag">10 Min</span><b>Spickzettel wiederholen:</b> Textart → Inhalt → Figur → Konflikt → Aussage.</div>
+</div>
+</section>
+
+
+<section class="section" id="abschluss">
+<h2>🍀 Die letzten Minuten vor der Prüfung</h2>
+<div class="card final-card">
+  <h3>🎓 So macht Almira einen sicheren Eindruck</h3>
+  <ul class="calm-list">
+    <li><b>Freundlich begrüßen:</b> „Guten Morgen Frau …“ oder „Hallo Frau …“</li>
+    <li><b>Erst zuhören, dann antworten:</b> Die Frage komplett anhören und kurz sammeln.</li>
+    <li><b>Langsam sprechen:</b> Lieber ruhig und deutlich als schnell und unsicher.</li>
+    <li><b>In ganzen Sätzen antworten:</b> Nicht nur „Fabel“, sondern: „Ich denke, es ist eine Fabel, weil …“</li>
+    <li><b>Nachfragen ist erlaubt:</b> Wenn etwas unklar ist, ruhig sagen: „Könnten Sie die Frage bitte wiederholen?“</li>
+    <li><b>Bei Unsicherheit nicht schweigen:</b> Besser: „Ich bin mir nicht ganz sicher, aber ich vermute, dass …“</li>
+  </ul>
+  <div class="teacher"><b>Prüfungs-Merksatz:</b> Ruhig bleiben, Blickkontakt halten, freundlich bleiben und immer nach dem Schema antworten: <b>Textart → Inhalt → Figur → Konflikt → Aussage</b>.</div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>🗣️ So könnten Prüferfragen klingen</h3>
+    <div class="question-list">
+      <div class="question-item"><b>„Worum geht es in diesem Text?“</b><br><span class="mini">Kurz zusammenfassen: Hauptfigur, Situation, Problem, Ende.</span></div>
+      <div class="question-item"><b>„Welche Textart liegt hier vor?“</b><br><span class="mini">Textart nennen und mit 2–3 Merkmalen begründen.</span></div>
+      <div class="question-item"><b>„Woran erkennen Sie das?“</b><br><span class="mini">Nicht raten: Merkmale aus dem Text nennen.</span></div>
+      <div class="question-item"><b>„Beschreiben Sie die Hauptfigur.“</b><br><span class="mini">Eigenschaft + Begründung: „Sie wirkt …, weil …“</span></div>
+      <div class="question-item"><b>„Welchen Konflikt hat die Figur?“</b><br><span class="mini">Innerer oder äußerer Konflikt erklären.</span></div>
+      <div class="question-item"><b>„Welche Aussage oder Lehre hat der Text?“</b><br><span class="mini">Allgemein formulieren: „Der Text zeigt, dass …“</span></div>
+      <div class="question-item"><b>„Warum schreibt man hier das/dass?“</b><br><span class="mini">Probe: dieses, jenes, welches = das. Sonst meistens dass.</span></div>
+    </div>
+  </div>
+
+  <div class="card green">
+    <h3>💬 Gute Rettungssätze</h3>
+    <p class="speech">„Darf ich kurz überlegen?“</p>
+    <p class="speech">„Ich würde sagen, dass …“</p>
+    <p class="speech">„Ich vermute, es ist eine …, weil …“</p>
+    <p class="speech">„Eine passende Aussage könnte sein, dass …“</p>
+    <p class="speech">„Ich kann es am Text daran erkennen, dass …“</p>
+  </div>
+</div>
+
+<div class="card final-card">
+  <h3>❤️ Persönliche Nachricht</h3>
+  <p>Du musst nicht perfekt sein. Du musst nur zeigen, dass du den Text verstanden hast und ordentlich darüber sprechen kannst. Wenn du ruhig bleibst und das Antwortschema benutzt, wirkst du direkt sicherer.</p>
+  <button id="boostBtn" class="btn boost-btn" onclick="boostMut()">🍀 Mut-Boost starten</button>
+  <p style="margin-top:18px"><b>Du schaffst das Almira ❤️</b></p>
+</div>
+</section>
+
+<script>
+let points = Number(localStorage.getItem('almiraPoints') || 0);
+function paint(){document.getElementById('score').textContent=points;document.getElementById('bar').style.width=Math.min(points,100)+'%'}
+function addPoint(n){points=Math.min(100,points+n);localStorage.setItem('almiraPoints',points);paint()}
+function resetPoints(){points=0;localStorage.setItem('almiraPoints',points);paint()}
+function right(el){el.classList.add('ok'); addPoint(10)}
+function wrong(el){el.classList.add('no')}
+function toggle(id){let x=document.getElementById(id);x.classList.toggle('showAnswer')}
+let boostLevel = Number(localStorage.getItem('almiraBoostLevel') || 0);
+function paintBoost(){
+  const btn=document.getElementById('boostBtn');
+  if(btn){btn.style.setProperty('--boost', Math.min(boostLevel,100)+'%')}
+}
+function confettiBurst(){
+  const colors=['#d94b46','#4978d6','#39a875','#ffc857','#8d5bd1'];
+  for(let i=0;i<45;i++){
+    const c=document.createElement('span');
+    c.className='confetti-piece';
+    c.style.left=Math.random()*100+'vw';
+    c.style.background=colors[Math.floor(Math.random()*colors.length)];
+    c.style.animationDelay=(Math.random()*0.25)+'s';
+    c.style.transform='rotate('+(Math.random()*360)+'deg)';
+    document.body.appendChild(c);
+    setTimeout(()=>c.remove(),2600);
+  }
+}
+function confettiRain(ms=5000){
+  const start=Date.now();
+  confettiBurst();
+  const timer=setInterval(()=>{
+    confettiBurst();
+    if(Date.now()-start>=ms){clearInterval(timer)}
+  },450);
+}
+function boostMut(){
+  boostLevel=Math.min(100,boostLevel+10);
+  localStorage.setItem('almiraBoostLevel',boostLevel);
+  paintBoost();
+  confettiBurst();
+  if(boostLevel>=100){
+    confettiRain(5000);
+    setTimeout(()=>{
+      localStorage.removeItem('almiraBoostLevel');
+      boostLevel=0;
+      paintBoost();
+      window.scrollTo({top:0,behavior:'smooth'});
+    },5200);
+  }
+}
+function celebrate(){boostMut()}
+paint();
+paintBoost();
+</script>
+</div>
+<div style="text-align:center;margin:40px 0 20px;font-size:1rem;color:#666;">
+<hr style="margin:20px auto;max-width:500px;">
+<p><strong>Gemacht für Almira von Taner Abi ❤️</strong></p>
+</div></body>
+</html>
